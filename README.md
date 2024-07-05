@@ -5,7 +5,7 @@ This Python script extracts SMB (Server Message Block) packets from a pcap file,
 - Clone the repository
 ```
 git clone https://github.com/powerexploit/SMB2-Packet-Analyzer
-cd smb-packet-extractor
+cd smb2-packet-analyzer
 ```
 
 - Ensure Python and required packages are installed:
