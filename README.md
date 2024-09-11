@@ -13,10 +13,6 @@ pip install sniperpy
 ```
 
 # Usage
-- Open a terminal or command prompt.
-- Navigate to the directory containing `smb_extractor.py` and your pcap file.
-
-# Usage
 After installing the package, you can import it and use the functions provided to work with SMB2 packets in your PCAP files.
 
 ### Example Code
