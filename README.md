@@ -40,6 +40,16 @@ except SMBExtractorError as e:
     print(f"An error occurred: {e}")
 ```
 
+### Example output
+```
+{
+    "Packet Type": "SMB2 Create Request",
+    "Source IP": "192.168.1.100",
+    "Source Port": 445,
+    "Destination IP": "192.168.1.101",
+    "Destination Port": 139
+}
+```
 # Functions Overview
 - `extract_smb_packets(pcap_file)`: Extracts SMB2 packets from the provided pcap file.
 - `parse_smb_packets(smb_packets)`: Parses SMB2 packets to extract metadata (IP addresses, ports, etc.).
