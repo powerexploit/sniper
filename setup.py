@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="sniper",
+    name="sniperpy",
     version="1.0.0",
     author="Ankit Dobhal",
     author_email="dobhal.ankit@protonmail.com",
@@ -26,7 +26,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'sniper=smb_extractor:main',
+            'sniperpy=smb_extractor:main',
         ],
     },
 )

@@ -1,5 +1,5 @@
-# Sniper: SMB2 Packet Analyzer
-`sniper` is a Python package designed to extract and analyze SMB2 packets from PCAP files. It helps security engineers quickly retrieve relevant SMB2 data like Create and Close requests/responses from packet captures.
+# Sniperpy: SMB2 Packet Analyzer
+`sniperpy` is a Python package designed to extract and analyze SMB2 packets from PCAP files. It helps security engineers quickly retrieve relevant SMB2 data like Create and Close requests/responses from packet captures.
 
 # Features
 - Extract SMB2 Create and Close requests/responses from PCAP files.
@@ -7,9 +7,9 @@
 - Save extracted metadata as a JSON file.
 
 # Installation
-You can install `sniper` using `pip`:
+You can install `sniperpy` using `pip`:
 ```
-pip install sniper
+pip install sniperpy
 ```
 
 # Usage
@@ -21,7 +21,7 @@ After installing the package, you can import it and use the functions provided t
 
 ### Example Code
 ```
-from sniper import extract_smb_packets, parse_smb_packets, save_extracted_files, SMBExtractorError
+from sniperpy import extract_smb_packets, parse_smb_packets, save_extracted_files, SMBExtractorError
 
 # Specify the path to your pcap file
 pcap_file = "path_to_your_pcap_file.pcap"
